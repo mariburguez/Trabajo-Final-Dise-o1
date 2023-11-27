@@ -68,9 +68,38 @@ body, html {
 }
 
 
+ /* formulario de contacto  MODICACIONEEEEEEEEES*/
+ body {
+  background: url('../../images/contact.png') center center fixed !important; /* Cambia 'tu-imagen-de-fondo.jpg' por la ruta de tu imagen de fondo */
+  background-size: cover;
+  color: #ffffff; /* Color del texto */
+}
+
+.seccion-contacto {
+  padding: 50px 0;
+}
+
+.title-contact {
+  color: #ffffff; /* Color del título */
+}
+
+.contact-form {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo del formulario */
+  padding: 20px;
+  border-radius: 10px;
+}
 
 
  /* formulario de contacto */
+ #text{
+  color: #ffffff;
+ }
+.title-mapa{
+  color: #ffffff;
+  font-size: 4rem
+  display: flex;
+  align-items: center; /* Centrar verticalmente */
+}
 
 .title-contact{
   font-size: 4rem;
@@ -85,7 +114,7 @@ body, html {
   height: 722px; /* Ajusta la altura según tus necesidades */
     width: 100% !important;
     background: url('../../images/contact.png') center/cover no-repeat !important; 
-    color: #e6e6e6;
+    color: #ffffff;
     padding: 50px 50px ;
     margin: 0; 
     display: flex;
@@ -134,7 +163,9 @@ body, html {
     margin-bottom: 60px;
   }
 
-
+.mapa{
+  padding: 20px; 
+}
 
 
 

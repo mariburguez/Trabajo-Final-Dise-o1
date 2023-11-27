@@ -44,66 +44,63 @@
 
                    
 
-<!-- formulario de contacto -->
-<section class="seccion-contacto">
-  <div class="contact-section">
-      <div class="contact-content">
-        <!-- Columna izquierda con texto, título y descripción -->
-        <div class="col-lg-6">
-          <h1 class="title-contact">¿Te ayudamos?</h1>
-          <h4>Envíanos tu consulta, te brindaremos asesoramiento lo más pronto posible.</h4>
+  <!-- Sección de Contacto -->
+  <section class="seccion-contacto">
+    <div class="container">
+        <div class="row">
 
-          <h4> Te desea un excelente día,</h4>
-              
-          <h6>Equipo de La Fábrica de Muebles®</h6>
-        </div>
+            <!-- Columna izquierda con texto, título y descripción -->
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <h1 class="title-contact">¿Te ayudamos?</h1>
+                <h4 class="mb-4" id="text">Envíanos tu consulta, te brindaremos asesoramiento lo más pronto posible.</h4>
+                <h4 class="mb-4" id="text">Te desea un excelente día,</h4>
+                <h6 id="text">Equipo de La Fábrica de Muebles®</h6>
+            </div>
 
-        <!-- Columna derecha con el formulario -->
-        <div class="col-lg-6">
-          <div class="contact-form">
-            <form>
-              <div class="form-group">
-                <label for="nombre">Nombre:</label>
-                <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
-              </div>
-              <div class="form-group">
-                <label for="correo">Correo electrónico:</label>
-                <input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo electrónico" required>
-              </div>
-              <div class="form-group">
-                <label for="telefono">Teléfono:</label>
-                <input type="tel" class="form-control" id="telefono" placeholder="Ingresa tu teléfono">
-              </div>
-              <div class="form-group">
-                <label for="mensaje">Mensaje:</label>
-                <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary form-btn">Enviar</button>
-            </form>
-          </div>
+            <!-- Columna derecha con el formulario -->
+            <div class="col-lg-6">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="correo">Correo electrónico:</label>
+                            <input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono:</label>
+                            <input type="tel" class="form-control" id="telefono" placeholder="Ingresa tu teléfono">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-btn">Enviar</button>
+                    </form>
+                </div>
+            </div>
+
         </div>
-      </div>
     </div>
 </section>
 
 
-<div class="Title-section">
-                          
-    <h2>Conoce nuestra fabrica </h2>
-
-</div>
 
 
 <!-- Mapa -->
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-12 text-center">
-          
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3004.7456354273277!2d-71.30406399999997!3d-41.140078468742054!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b69473ffb5f%3A0x1bfc1a94ea22f33e!2sBeschtedt%20765%2C%20San%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses!2sar!4v1700896286909!5m2!1ses!2sar"  width="1000" height="500" style="border: 10px;;"   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+<section class="mapa">
+  <div class="container mt-5">
+      <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3004.7456354273277!2d-71.30406399999997!3d-41.140078468742054!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b69473ffb5f%3A0x1bfc1a94ea22f33e!2sBeschtedt%20765%2C%20San%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses!2sar!4v1700896286909!5m2!1ses!2sar"  width="1000" height="500" style="border: 10px;;"   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+      </div>
     </div>
-  </div>
-
+  </section>
 <!-- Footer -->
 
 <div class="footer-basic">
@@ -146,5 +143,10 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+
+<!-- mapa -->
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
